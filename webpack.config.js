@@ -15,7 +15,7 @@ module.exports = {
             vue$: "vue/dist/vue.esm.js",
             "@": path.join(__dirname, "..", "src"),
         },
-        extensions: [".ts", ".tsx", ".js", ".vue"],
+        extensions: [".vue", ".ts", ".tsx", ".js"],
     },
     module: {
         rules: [
